@@ -199,6 +199,7 @@ canvas {
 html {
 	font-size: 62.5%;
 	background-color: var(--bluebg);
+	overflow-x: hidden;
 }
 
 .hamburger-menu {
@@ -844,7 +845,7 @@ html {
 }
 
 .social-list a {
-	margin: 0 2rem;
+	margin: 1rem 2rem;
 }
 
 .social-list i {
