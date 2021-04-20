@@ -761,7 +761,7 @@ html {
 	border-bottom: .2rem dashed #636363;
 	margin: 2rem 0;
 	padding: 1rem 1rem 1rem 0;
-	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-family: monospace;
 	font-size: 1.6rem;
 }
 
