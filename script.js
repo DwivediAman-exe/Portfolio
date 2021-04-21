@@ -1,9 +1,11 @@
+// for spinner
 window.onload = () => {
 	setTimeout( () => {
 		document.querySelector("body").classList.add("display")
 	}, 3000);
 }
 
+// for Sidebar icon change
 document.querySelector(".hamburger-menu").addEventListener("click", () => {
 
 	document.querySelector(".container").classList.toggle("change");
@@ -11,6 +13,7 @@ document.querySelector(".hamburger-menu").addEventListener("click", () => {
 });
 
 
+// for refresh button
 document.querySelector(".scroll-btn").addEventListener("click", () => {
 
 	document.querySelector('html').style.scrollBehavior="smooth";

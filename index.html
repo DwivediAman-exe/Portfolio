@@ -7,15 +7,21 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 	<title>Aman's Portfolio</title>
+	<!-- Stylesheet -->
 	<link rel="stylesheet" href="styles.css">
+	<!-- Google fonts -->
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+	<!-- Plugin -->
 	<link rel="stylesheet" type="text/css" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<!-- fontawesome -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
 	integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 </head>
 
 <body>
+	<!-- particles.js container -->
 	<div id="particles-js"></div>
+	<!-- spinner to be shown when page is loading-->
 	<div class="spinner-container">
 		<div class="circles">
 			<div></div>
@@ -28,22 +34,23 @@
 			<div></div>
 		</div>
 	</div>
-
+	<!-- Main Body-->	
 	<div class="container">
-		<!-- particles.js container -->   
-		
+		<!-- TopLeft icons -->
 		<div class="symbol" data-aos="zoom-out">
 			<h3>
 				<i class="fas fa-laptop-code"></i>
 				<i class="fas fa-bug"></i>
 			</h3>
 		</div>
+		<!-- SideBar icon-->
 		<div class="hamburger-menu">
 			<div class="line line-1"></div>
 			<div class="line line-2"></div>
 			<div class="line line-3"></div>
 			<span>Close</span>
 		</div>
+		<!-- Heading and sub heading content-->
 		<header class="header">
 			<div class="banner">
 				<h1>I'm Aman,</h1>
@@ -51,11 +58,12 @@
 			<div class="banner-heading">
 				<span class="heading-1">Developer</span>
 				<span class="heading-2">Creator</span>
-				<span class="heading-3">Designer</span>
+				<span class="heading-3">Blogger</span>
 			</div>
 		</header>
-
+		<!-- Sidebar content -->
 		<section class="sidebar">
+			<!-- sidebar items list -->
 			<ul class="menu">
 				<li class="menu-item">
 					<a href="#" class="menu-link" data-content="Home">Home</a>
@@ -73,6 +81,7 @@
 					<a href="#contact" class="menu-link" data-content="Contact">Contact</a>
 				</li>
 			</ul>
+			<!-- sidebar social icons -->
 			<div class="social-media">
 				<a href="https://github.com/born69confused">
 					<i class="fab fa-github">
@@ -88,15 +97,18 @@
 				</i></a>
 			</div>
 		</section>
+		<!-- Heading and sub heading content finished-->
 
-
+		<!-- About content-->
 		<section class="about-us" id="about-us">
+			<!-- About content heading-->
 			<div class="section-header">
 				<h1 class="section-heading">
 					Skills
 				</h1>
 				<div class="underline"></div>
 			</div>
+			<!-- About content items-->
 			<div class="services">
 				<div class="service">
 					<div class="service-header" data-aos="fade-right">
@@ -123,7 +135,7 @@
 						<h3>Crossbrowser</h3>
 					</div>
 					<p class="service-text" data-aos="fade-right">
-						I make fully responsive and SEO optimised WebApps
+						I make fully responsive and optimised Websites.
 					</p>
 				</div>
 				<div class="service">
@@ -132,7 +144,7 @@
 						<h3>Web Dev</h3>
 					</div>
 					<p class="service-text" data-aos="fade-left">
-						I usually work with MERN stack but always ready to learn new skills. 
+						I'm learning MERN stack but always ready to learn new skills. 
 					</p>
 				</div>
 				<div class="service">
@@ -154,19 +166,24 @@
 						currently learning AWS architecture.
 					</p>
 				</div>
+				<!-- About content images-->
 				<div class="about-us-img-wrapper"  data-tilt>
 					<img src="images/skill.png" alt="about-us">
 				</div>
 			</div>
 		</section>
+		<!-- About content finished-->
 
+		<!-- Education content-->
 		<section class="education" id="education">
+			<!-- Education content heading-->
 			<div class="section-header">
 				<h1 class="section-heading">
 					Education
 				</h1>
 				<div class="underline"></div>
 			</div>
+			<!-- Education content timeline-->
 			<div class="timeline">
 				<ul>
 					<li>
@@ -203,16 +220,18 @@
 				</ul>
 			</div>
 		</section>
-		
+		<!-- Education content finished-->
 
-
+		<!-- Project content-->
 		<section class="team" id="team">
+			<!-- Project content heading-->
 			<div class="section-header">
 				<h1 class="section-heading">
 					Projects
 				</h1>
 				<div class="underline"></div>
 			</div>
+			<!-- Project content cards-->
 			<div class="cards-wrapper">
 				<div class="card" data-tilt>
 					<div class="card-img-wrapper">
@@ -249,17 +268,20 @@
 				</div>
 			</div>
 		</section>
+		<!-- Project content finished-->
 
-
-
+		<!-- Contact content-->
 		<section class="contact" id="contact">
 			<div class="contact-wrapper" data-aos="flip-down">
+				<!-- Contact content left-->
 				<div class="contact-left">
 					<h3>Want to work together?
 					Ping me!</h3>
 				</div>
+				<!-- Contact content right-->
 				<div class="contact-right">
 					<h1 class="contact-heading">Contact</h1>
+					<!-- 3rd party API-->
 					<form action="https://formspree.io/f/mleadwav" method="POST">
 						<div class="input-group">
 							<input type="text" class="field" name="name">
@@ -279,13 +301,15 @@
 				</div>
 			</div>
 		</section>	
+		<!-- Contact content finished -->
 
-
+		<!-- Footer content -->
 		<footer class="footer">
 			<div class="footer-content">
 				<p class="copyright">
 					Copyright <i class="far fa-copyright"></i> 2021, Aman Dwivedi
 				</p>
+				<!-- contact content social icons -->
 				<div class="social-list">
 					<a href="https://www.linkedin.com/in/aman-dwivedi-b3b5841b0/"><i class="fab fa-linkedin"></i></a>
 					<a href="https://www.instagram.com/born_69_confused/?hl=de"><i class="fab fa-instagram"></i></a>
@@ -294,20 +318,28 @@
 				</div>
 			</div>
 		</footer>
+		<!-- Footer content finished -->
 
+		<!-- Button to refresh page-->
 		<a href="" class="scroll-btn">
 			<i class="fas fa-arrow-up"></i>
 		</a>
 
 	</div>
+	<!-- Main content finished -->
 
+	<!-- Jquery -->
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"
 	integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<!-- my script -->
 	<script src="script.js"></script>
+	<!-- Plugin scripts -->
 	<script src="tilt.js"></script>
 	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<!-- Particle scripts -->
 	<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 	<script src="particlescript.js"></script>
+	<!-- Plugin loaded -->
 	<script>
 		AOS.init({
 			startEvent: 'DOMContentLoaded',
