@@ -284,17 +284,17 @@
 					<!-- 3rd party API-->
 					<form action="https://formspree.io/f/mleadwav" method="POST">
 						<div class="input-group">
-							<input type="text" class="field" name="name">
+							<input type="text" class="field" name="name" required>
 							<label class="input-label">Name</label>
 						</div>
 						<div class="input-group">
-							<input type="email" class="field" name="email">
+							<input type="email" class="field" name="email" required>
 							<label class="input-label">Email</label>
 						</div>
 						<div class="input-group">
 							<textarea class="field" name="message">
 							</textarea>
-							<label class="message">Message</label>
+							<label class="message" required>Message</label>
 						</div>
 						<input type="submit" class="submit-btn" value="submit"/>
 					</form>
